@@ -20,4 +20,4 @@
 Deploy: [https://focus-timer2.vercel.app/](https://spauniverse-ebon.vercel.app/)
 
 Preview: 
-![preview](./preview.png)
+![preview](./preview.PNG)
