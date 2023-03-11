@@ -10,33 +10,40 @@
     font-family: 'Roboto', sans-serif;
     color: white;
 
+    --switch-bg1: url(/assets/universe.jpg);
+    --switch-bg2: url(./assets/universe2.jpg);
+    --switch-bg3: url(./assets/universe3.jpg);
+
+
 }
 
 html{
     min-height: 100%;
-    background-image: url(./assets/universe.jpg);
+    background-image: var(--switch-bg1);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .bg1{
-    background-image: url(/assets/universe.jpg);
+    background-image: var(--switch-bg1);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg2{
-    background-image: url(/assets/universe2.jpg);
+    background-image: var(--switch-bg2);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .bg3{
-    background-image: url(/assets/universe3.jpg);
+    background-image: var(--switch-bg3);
     background-size: cover;
     background-repeat: no-repeat;
+
+    
+
 
 }
 
@@ -61,6 +68,9 @@ header a{
     justify-content: center;
     font-weight: 700;
     font-size: 2.4rem;
+
+
+    
 
 }
 
@@ -109,7 +119,13 @@ body{
     border-radius: .5rem;
 
     width: fit-content;
-    
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.title button:hover{
+    background: rgb(153, 150, 150);
+    color: #050505;
 }
 
 .universepage, .exploracaopage{
@@ -129,4 +145,5 @@ body{
     font-size: 1.8rem;
     color: #E1E1E6;
 }
+
 
